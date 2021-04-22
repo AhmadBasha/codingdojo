@@ -118,8 +118,10 @@ barplot(
 )
 
 # Make any other chart
-plot(total, type="b", col="salmon2", main = 'Total Revenue Per Day',labels=rownames(total),xlab = "Days",
+plot(total, xaxt="n", type="b", col="salmon2",  main = 'Total Revenue Per Day',xlab = "Days",
      ylab = "Revenue")
+# 1 means x-axis , 1:7 the varable want to chanege 
+axis(1,at = 1:7, labels = names(total))
 
 
 # Plot for snacks
