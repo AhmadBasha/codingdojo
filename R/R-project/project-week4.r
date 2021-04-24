@@ -41,8 +41,8 @@ for (i in week_days) {
     # Iterate through the conditional of movies on a particular day
     for (k in 1:length(movies$movie_con)) {
       # Creat if-else statement to the movies conditional.
-      if(movies$movie_con == 1){  
-        paste("Sorry, PG-13 and children are not allowed to watch this movie.")
+      if(movies$movie_con[k] == 1){  
+        print("Sorry, PG-13 and children are not allowed to watch this movie.")
         visitors_children<-0
       } else {
         visitors_children <- sample(abs(visitors_adults-seats),1) 
