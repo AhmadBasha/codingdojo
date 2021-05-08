@@ -1,0 +1,1 @@
+Build a dashboard for Memoryless Bar where they can change parameters for their ordering and see the effect it has on inventory over the long run. OR Use your own data and make a dashboard displaying the data and any insights you find interesting OR make a dashboard that uses multiple widgets and multiple outputs.
