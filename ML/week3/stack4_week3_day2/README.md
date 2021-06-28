@@ -2,7 +2,7 @@
 
 ## Project Intro/Objective
 
-The purpose of this project is pridict if someone is diabetic or not by using built models.
+The purpose of this project is predict if someone is diabetic or not by using built models.
 
 ### Methods Used
 * EDA
